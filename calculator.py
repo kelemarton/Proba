@@ -8,4 +8,8 @@ def calculate_multi(a, b):
     return a * b
 
 def calculate_div(a, b):
-    return a / b
+    try:
+        c = a / b
+    except ZeroDivisionError:
+        c = "error: Division by zero is not allowed"
+    return c
