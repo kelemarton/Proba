@@ -9,6 +9,3 @@ def calculate_multi(a, b):
 
 def calculate_div(a, b):
     return a / b
-
-write("Első Szám: ")
-num1 = int(input())
